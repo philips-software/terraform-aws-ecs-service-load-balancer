@@ -5,3 +5,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
+
+## 1.0.0
+- ALB with optional listener
+- NLB
+
+[Unreleased]: https://github.com/philips-software/terraform-aws-ecs-service-load-balancer/compare/1.0.0...HEAD
