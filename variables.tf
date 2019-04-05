@@ -98,3 +98,8 @@ variable "name_suffix" {
   type        = "string"
   description = "Suffix which will be added to the name of resources and part of the tag `name`."
 }
+
+variable "enable_cross_zone_load_balancing" {
+  default     = false
+  description = "If true, cross-zone load balancing of the load balancer will be enabled"
+}

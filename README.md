@@ -73,6 +73,7 @@ module "lb_network" {
 | type | Indication the type of a load balancer, possible values are: `application` and `network`. | string | `application` | no |
 | vpc_cidr | CIDR block which will be applied to the sceurity group of the LB. In case the LB is marked as exteral the ingress rule allows traffic from anywhere. | string | `` | no |
 | vpc_id | The VPC to launch the LB, e.g. needed for the security group and target group. | string | `` | no |
+| enable_cross_zone_load_balancing | Enable cross zone load balancing. | bool | false | no |
 
 ## Outputs
 
