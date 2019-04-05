@@ -70,6 +70,8 @@ resource "aws_lb" "network" {
 
   idle_timeout = "${var.timeout}"
 
+  enable_cross_zone_load_balancing = "${var.enable_cross_zone_load_balancing}"
+
   tags = "${merge(map("Name", format("%s", "${var.environment}-${var.name_suffix}")),
             map("Environment", format("%s", var.environment)),
             map("Project", format("%s", var.project)),
