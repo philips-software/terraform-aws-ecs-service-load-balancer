@@ -81,6 +81,7 @@ module "lb_network" {
 |------|-------------|
 | arn |  |
 | listener_arn |  |
+| lb_dns_name | DNS of Load Balancer |
 
 ## Philips Forest
 
