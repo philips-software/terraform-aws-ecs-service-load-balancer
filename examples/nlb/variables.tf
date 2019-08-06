@@ -1,13 +1,14 @@
 variable "aws_region" {
-  type = "string"
+  type = string
 }
 
 variable "environment" {
-  type = "string"
+  type = string
 }
 
 variable "project" {
   description = "Project identifier"
-  type        = "string"
+  type        = string
   default     = "test"
 }
+
